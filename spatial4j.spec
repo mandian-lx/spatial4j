@@ -1,3 +1,4 @@
+%{?_javapackages_macros:%_javapackages_macros}
 Name:          spatial4j
 Version:       0.4.1
 Release:       2%{?dist}
