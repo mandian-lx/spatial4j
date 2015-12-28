@@ -1,14 +1,15 @@
 %{?_javapackages_macros:%_javapackages_macros}
 Name:          spatial4j
 Version:       0.4.1
-Release:       2%{?dist}
+Release:       2.1
 Summary:       A Geospatial Library for Java
+Group:		Development/Java
 License:       ASL 2.0
 URL:           https://github.com/spatial4j
 Source0:       https://github.com/spatial4j/spatial4j/archive/%{name}-%{version}.tar.gz
 
 BuildRequires: mvn(com.vividsolutions:jts)
-BuildRequires: mvn(org.sonatype.oss:oss-parent)
+BuildRequires: mvn(org.sonatype.oss:oss-parent:pom:)
 
 # test deps
 %if 0
